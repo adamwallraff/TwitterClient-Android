@@ -7,6 +7,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -19,7 +21,7 @@ public class JSON {
 
     private static final String TAG = "JSON";
 
-    private static String getSampleJSONAsString(Context context){
+    public static String getSampleJSONAsString(Context context){
         StringBuilder stringBuilder = new StringBuilder();
 
         String jsonString = null;
