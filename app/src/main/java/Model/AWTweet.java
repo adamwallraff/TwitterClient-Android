@@ -5,10 +5,10 @@ import android.util.Log;
 import org.json.JSONObject;
 
 /**
- * Created by adamwallraff on 8/30/17.
+ * Created by adamwallraff on 9/14/17.
  */
 
-public class Tweet {
+public class AWTweet {
 
     private static String TAG = "Tweet";
 
@@ -16,7 +16,7 @@ public class Tweet {
     public String id;
     public User user;
 
-    public Tweet(JSONObject tweetJSON){
+    public AWTweet(JSONObject tweetJSON){
 
         try {
             this.text = tweetJSON.getString("text");

@@ -44,9 +44,9 @@ public class JSON {
 
     }
 
-    public static ArrayList<Tweet> getTweets(Context context, Boolean usingSampleJSON) {
+    public static ArrayList<AWTweet> getTweets(Context context, Boolean usingSampleJSON) {
 
-        ArrayList<Tweet> tweets = new ArrayList<Tweet>();
+        ArrayList<AWTweet> tweets = new ArrayList<AWTweet>();
 
         try {
             JSONArray tweetsJSON = new JSONArray(getSampleJSONAsString(context));
@@ -56,7 +56,7 @@ public class JSON {
 
                 Log.d(TAG, "getTweets: TweetText - " + tweetJSON.get("text"));
 
-                tweets.add(new Tweet(tweetJSON));
+                tweets.add(new AWTweet(tweetJSON));
             }
 
         }catch (Exception exception){

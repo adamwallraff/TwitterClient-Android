@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">501TwitterClient</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">8PZGblnMB0JzPnqfSFQ0WmqgY</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">MemWNrLOODUHbFsnwfCgETlUVrlwziv84VOSF0iyxIMT8nVDrO</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
 </resources>
